@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Contacto | Pedí presupuesto para tu Landing Page en Argentina</title>
+  <meta name="description" content="Contactame para tu proyecto de diseño web landing. Pedí presupuesto para tu landing page para pymes o emprendedores en Argentina.">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'primario': '#0B5563',      // Azul Petróleo
+            'secundario': '#F29E4C',    // Naranja/Mostaza
+            'acento': '#2ECC71',        // Verde confirmaciones
+            'gris-claro': '#F5F7FA',   // Gris Claro (fondos)
+            'gris-oscuro': '#374151',  // Gris Oscuro (texto)
+          },
+          fontFamily: {
+            'display': ['Poppins', 'sans-serif'], // Títulos
+            'sans': ['Inter', 'sans-serif'],      // Cuerpo/párrafos
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico">
+
+</head>
+<body class="bg-white text-gris-oscuro font-sans">
+
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto flex justify-between items-center px-6 py-4">
+      
+      <a href="index.html" class="text-2xl font-bold text-primario font-display">DMR Web Design</a>
+      
+      <nav class="hidden md:flex space-x-6">
+        <a href="index.html" class="text-gris-oscuro hover:text-primario font-medium">Inicio</a>
+        <a href="tipos.html" class="text-gris-oscuro hover:text-primario font-medium">Tipos de Landing</a>
+        <a href="contacto.html" class="text-primario font-semibold">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="bg-primario text-white text-center py-16 px-6">
+    <h1 class="text-3xl font-bold font-display mb-4">Hablemos de tu proyecto</h1>
+    <p class="max-w-2xl mx-auto text-lg text-gray-200">Completá el formulario o escribime directamente para cotizar tu diseño web landing.</p>
+  </section>
+
+  <section class="max-w-6xl mx-auto py-16 px-6">
+    <div class="grid md:grid-cols-2 gap-12">
+
+      <div>
+        <h2 class="text-2xl font-bold text-primario font-display mb-6">Enviame un mensaje</h2>
+        
+        <form action="https://formspree.io/f/TU_ID_UNICO_AQUI" method="POST" class="bg-gris-claro p-8 rounded-2xl shadow-md space-y-6">
+          <div>
+            <label for="nombre" class="block text-gris-oscuro font-semibold mb-2">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primario">
+          </div>
+          <div>
+            <label for="email" class="block text-gris-oscuro font-semibold mb-2">Email</label>
+            <input type="email" id="email" name="email" required class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primario">
+          </div>
+          <div>
+            <label for="telefono" class="block text-gris-oscuro font-semibold mb-2">Teléfono (Opcional)</label>
+            <input type="tel" id="telefono" name="telefono" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primario">
+          </div>
+          <div>
+            <label for="tipo-landing" class="block text-gris-oscuro font-semibold mb-2">Tipo de landing que te interesa</label>
+            <select id="tipo-landing" name="tipo_de_landing" class="w-full border border-gray-300 rounded-lg px-4 py-2 bg-white focus:outline-none focus:ring-2 focus:ring-primario">
+              <option value="Consulta General">Consulta General</option>
+              <option value="Negocio Local">Negocio Local</option>
+              <option value="Servicio Profesional">Servicio Profesional</option>
+              <option value="Producto / E-commerce">Producto / E-commerce</option>
+              <option value="Evento / Curso">Evento / Curso</option>
+              <option value="Invitacion (15/Boda)">Invitación (15/Boda)</option>
+            </select>
+          </div>
+          <div>
+            <label for="mensaje" class="block text-gris-oscuro font-semibold mb-2">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primario" placeholder="Contame un poco sobre tu proyecto..."></textarea>
+          </div>
+          
+          <button type="submit" class="w-full bg-primario text-white px-6 py-3 rounded-2xl font-semibold font-display hover:bg-opacity-90 transition">
+            Enviar mensaje
+          </button>
+          <p class="text-xs text-gray-500 text-center">Tus datos solo se usarán para responder a tu consulta.</p>
+        </form>
+      </div>
+
+      <div>
+        <h2 class="text-2xl font-bold text-primario font-display mb-6">O contactame directo</h2>
+        <div class="bg-gris-claro p-8 rounded-2xl shadow-md space-y-6">
+
+          <a href="https://wa.me/5492615892555?text=..." target="_blank" class="flex items-center justify-center w-full bg-acento text-white px-6 py-4 rounded-2xl font-semibold font-display hover:bg-opacity-90 transition">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M12.04 2.016c-5.49 0-9.94 4.45-9.94 9.94 0 1.76.46 3.42 1.25 4.85L2 22l5.31-1.39a9.92 9.92 0 0 0 4.73 1.21h.01c5.49 0 9.94-4.45 9.94-9.94s-4.45-9.94-9.94-9.94zM17.3 14.37c-.19-.1-.86-.43-1-.5-.14-.07-.24-.1-.34.1-.1.2-.38.48-.47.58-.09.1-.19.12-.34.02-.15-.1-.63-.23-1.2-.74-.44-.39-.73-.88-.82-1.02-.09-.15-.01-.23.06-.3.07-.07.15-.17.23-.25.08-.08.1-.12.16-.21.06-.09.03-.17-.01-.24-.05-.07-.34-.81-.47-1.11-.12-.29-.25-.25-.34-.25h-.1c-.1 0-.24.05-.38.24-.13.19-.51.5-.63.61-.12.12-.24.26-.24.41 0 .15.14.3.41.56.28.28 1.03 1.63 2.5 3.5.36.45.65.71.87.91.22.2.41.32.61.41.21.1.39.08.53.05.15-.03.86-.35 1-.49.13-.14.24-.26.28-.41.04-.15.02-.24-.04-.34-.06-.09-.19-.14-.34-.24z"/></svg>
+            Enviar WhatsApp
+          </a>
+
+          <a href="mailto:tuemail@gmail.com" class="flex items-center justify-center w-full bg-gris-oscuro text-white px-6 py-4 rounded-2xl font-semibold font-display hover:bg-opacity-90 transition">
+            <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+            Enviar Email
+          </a>
+
+          <div class="text-center pt-4">
+            <p class="text-gris-oscuro font-semibold">Horario de respuesta:</p>
+            <p class="text-gris-oscuro">Lunes a Viernes de 9:00 a 18:00 hs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gris-oscuro text-gray-400 py-8 text-center">
+    <p class="mb-2">© 2025 Diego Moreno Rico. Todos los derechos reservados.</p>
+    <a href="https://diegomr949.github.io/Portfolio-Moreno-Rico-Diego/" target="_blank" class="text-secundario hover:text-opacity-80 transition hover:underline">
+      Ver mi Portfolio de Desarrollador
+    </a>
+  </footer>
+
+  <a href="https://wa.me/5492615892555?text=Hola%20Diego%2C%20vengo%20de%20tu%20sitio%20web%20y%20quiero%20cotizar%20una%20landing%20page." target="_blank" class="fixed bottom-6 right-6 bg-acento text-white p-4 rounded-full shadow-lg hover:bg-opacity-90 transition z-50">
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M12.04 2.016c-5.49 0-9.94 4.45-9.94 9.94 0 1.76.46 3.42 1.25 4.85L2 22l5.31-1.39a9.92 9.92 0 0 0 4.73 1.21h.01c5.49 0 9.94-4.45 9.94-9.94s-4.45-9.94-9.94-9.94zM17.3 14.37c-.19-.1-.86-.43-1-.5-.14-.07-.24-.1-.34.1-.1.2-.38.48-.47.58-.09.1-.19.12-.34.02-.15-.1-.63-.23-1.2-.74-.44-.39-.73-.88-.82-1.02-.09-.15-.01-.23.06-.3.07-.07.15-.17.23-.25.08-.08.1-.12.16-.21.06-.09.03-.17-.01-.24-.05-.07-.34-.81-.47-1.11-.12-.29-.25-.25-.34-.25h-.1c-.1 0-.24.05-.38.24-.13.19-.51.5-.63.61-.12.12-.24.26-.24.41 0 .15.14.3.41.56.28.28 1.03 1.63 2.5 3.5.36.45.65.71.87.91.22.2.41.32.61.41.21.1.39.08.53.05.15-.03.86-.35 1-.49.13-.14.24-.26.28-.41.04-.15.02-.24-.04-.34-.06-.09-.19-.14-.34-.24z"/></svg>
+  </a>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // 1. Obtener los parámetros de la URL
+    const params = new URLSearchParams(window.location.search);
+    
+    // 2. Buscar si existe el parámetro 'plan'
+    const planSeleccionado = params.get('plan'); // Esto será 'basico', 'pro', 'premium' o null
+
+    // 3. Si se encontró un plan en la URL...
+    if (planSeleccionado) {
+      // Encontrar el textarea por su ID
+      const mensajeTextarea = document.getElementById('mensaje');
+      
+      if (mensajeTextarea) {
+        // Crear un mensaje predefinido
+        let mensaje = `Hola Diego,\n\nEstoy interesado/a en el Plan `;
+
+        // Añadir el nombre del plan formateado
+        if (planSeleccionado === 'basico') {
+          mensaje += 'Básico.';
+        } else if (planSeleccionado === 'pro') {
+          mensaje += 'Pro.';
+        } else if (planSeleccionado === 'premium') {
+          mensaje += 'Premium.';
+        } else {
+          // Si el valor no es uno de los esperados, ponerlo tal cual
+          mensaje += `'${planSeleccionado}'.`; 
+        }
+
+        mensaje += '\n\nMe gustaría recibir más información.\n\nGracias.';
+
+        // Establecer el valor del textarea
+        mensajeTextarea.value = mensaje;
+      }
+    }
+  });
+</script>
+</body> </html>

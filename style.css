@@ -1,0 +1,16 @@
+/* ------------------------------
+   DMR Web Design - Estilos Base
+   ------------------------------ */
+
+/* --- 1. Importar la fuente que usará Tailwind --- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Opcional: Si quieres que 'font-poppins' sea la fuente por defecto 
+  sin tener que añadir la clase en el <body> de cada HTML, 
+  puedes descomentar esto:
+*/
+/*
+body {
+  font-family: 'Poppins', sans-serif;
+}
+*/
